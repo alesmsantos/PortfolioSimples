@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>Portfólio Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        margin: 0;
+        font-family: 'Fjalla One', sans-serif;
+    }
+footer {
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+#topMenu {
+    display: flex;
+    background: #302f2f;
+    margin:0;
+}
+#topMenu li {
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+#topMenu li:first-child {
+    margin-right: auto;
+}
+.section1 {
+    display: flex;
+    height: 100vh;
+    background-color: #7B68EE;
+}
+.centralize{
+    margin: auto;
+    text-align: center;
+}
+
+.imagemProjeto {
+    width: 20vw;
+    height: 15vw;
+    padding-left: 15px;
+}
+.section2 {
+    display: flex;
+    height: 33vw;
+    background-color: white;
+}
+
+.section3 {
+    display: flex;
+    height: 33vw;
+    background-color: #e5e6ea;
+}
+
+.botaoVermelho {
+    background-color: palevioletred;
+    border-radius: 5px;
+    color:white;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+</style>
+<body>
+    <nav>
+        <ul id="topMenu">
+            <li>Logo</li>
+            <li>Inicio</li>
+            <li>Projetos</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+    <div class="section1">
+        <div class="centralize">
+            <h1 style="color: white">Portfólio Simples</h1>
+            <a href="#projetos"><button class="botaoVermelho">Meus Projetos</button></a>
+        </div>
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table class="centraliza">
+            <tr>
+               <td style="width:40%"><img class="imagemProjeto" src="https://www.sunsetweb.com.br/painel/uploads/images/2019/1%20-%20Janeiro/Web%20Dev%20Google%20Sunset%20Web%20conhe%C3%A7a.jpg">
+            </img></td>
+                <td style="width:60%; text-align: left">
+                    <ul style="color: #BF3EFF;">
+                    Projeto 1
+                    <hr>
+                    <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio praesentium quod quidem eum cupiditate aut esse suscipit repellat consectetur dolores laudantium illo quibusdam alias quia eaque harum, voluptatibus vero beatae.</li>
+                    <li>Tecnologia 1</li>
+                    <li>Tecnologia 2</li>
+                    <li>Tecnologia 3</li>
+                    <li>Tecnologia 4</li>
+                </ul></td>
+            </tr>
+        </table>
+    </div>
+    <div id="projetos" class="section3 centralize">
+        <table class="centraliza">
+            <tr>
+               <td style="width:40%"><img class="imagemProjeto" src="https://uploads-ssl.webflow.com/601c88b1adfb1822958b1ece/6020a855299e8fff1ccd9aa4_0*6gYnL7LnjPkXsirM.jpeg">
+            </img></td>
+                <td style="width:60%; text-align: left">
+                    <ul style="color: #BF3EFF;">
+                    Projeto 2
+                    <hr>
+                    <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio praesentium quod quidem eum cupiditate aut esse suscipit repellat consectetur dolores laudantium illo quibusdam alias quia eaque harum, voluptatibus vero beatae.</li>
+                    <li>Tecnologia 1</li>
+                    <li>Tecnologia 2</li>
+                    <li>Tecnologia 3</li>
+                    <li>Tecnologia 4</li>
+                </ul></td>
+            </tr>
+        </table>
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table class="centraliza">
+            <tr>
+               <td style="width:40%"><img class="imagemProjeto" src="https://solutis.com.br/wp-content/uploads/2020/12/dev-carreira.jpg">
+            </img></td>
+                <td style="width:60%; text-align: left">
+                    <ul style="color: #BF3EFF;">
+                    Projeto 3
+                    <hr>
+                    <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio praesentium quod quidem eum cupiditate aut esse suscipit repellat consectetur dolores laudantium illo quibusdam alias quia eaque harum, voluptatibus vero beatae.</li>
+                    <li>Tecnologia 1</li>
+                    <li>Tecnologia 2</li>
+                    <li>Tecnologia 3</li>
+                    <li>Tecnologia 4</li>
+                </ul></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <h5 class="centralize">Criado por Alessandra Santos</h5>
+    </footer>
+</body>
+</html>
